@@ -20,7 +20,7 @@ const Skills = () => {
              <h3>Extra Skills:</h3>
              <ul role="list">
                 <li>Firebase</li>
-                <li>REST API</li>
+                <li>APIs</li>
                 <li>Photoshop</li>
                 <li>Figma</li>
                 <li>GitHub</li>
