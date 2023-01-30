@@ -72,11 +72,11 @@ body {
         color: $dark-span;
         font-family: $incon;
         font-size: 15px;
-        img:hover {
-            color: white;
-            width: 60px;
-            margin-right: -10px;
-        }
+        // img:hover {
+        //     color: white;
+        //     width: 60px;
+        //     margin-right: -10px;
+        // }
         :hover {
             font-size: 18px;
         }
@@ -477,7 +477,7 @@ body {
 }
 .nav-links {
     position: fixed;
-    z-index: 50000;
+    z-index: 500;
     width: 100vw;
     height: 100vh;
     background-color: $background-color;
@@ -492,24 +492,27 @@ body {
         }
         li{
             list-style: none;
-            line-height: 100px;
+            line-height: 80px;
+            position: relative;
+            left: -12px;
         }
         a{
             color: white;
             text-decoration: none;
-            font-size: 40px;
+            font-size: 24px;
             font-family: $mulish;
+
         }
     }
 }
 
 .close {
     position: fixed;
-    z-index: 50000;
-    right: 30px;
-    top: 30px;
+    z-index: 501;
+    right: 40px;
+    top: 40px;
     img {
-        width: 50px;
+        width: 30px;
     }
 }
 
@@ -1484,5 +1487,28 @@ body {
 }
 .social {
     right: 5px;
+}
+.space {
+    width: 100px;
+    height: 100px;
+    // background-color: #44C360;
+    position: absolute;
+    left: calc(50% - 50px);
+}
+
+#about1 {
+    top: 110vh;
+}
+#skills1 {
+    top: 250vh;
+}
+#work1 {
+    top: 350vh;
+}
+#contact1 {
+    top: 600vh;
+}
+.social {
+    right: 8px;
 }
 }
