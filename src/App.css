@@ -44,11 +44,13 @@ body {
 }
 .header img {
   width: 50px;
+  animation: fadeIn1 1.4s;
 }
 .header li {
   list-style: none;
   display: inline;
   padding: 0 20px;
+  animation: fadeIn2 1.4s;
 }
 .header li :hover {
   position: relative;
@@ -67,6 +69,7 @@ body {
   color: #94FFAB;
 }
 .header .resume-button {
+  animation: fadeIn3 1.4s;
   border: 1px solid #94FFAB;
   border-radius: 8px;
   padding: 5px 15px;
@@ -74,6 +77,39 @@ body {
 .header .resume-button :hover {
   color: #94FFAB;
   font-size: 16px;
+}
+@keyframes fadeIn1 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn2 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn3 {
+  0% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .header-background {
@@ -114,6 +150,7 @@ body {
   position: absolute;
   left: calc(50% - 290px);
   top: calc(50% - 100px);
+  animation: fadeInMain 2.7s;
 }
 .main-container .main-text h1 {
   font-size: 70px;
@@ -122,8 +159,6 @@ body {
 .main-container .main-text .name {
   color: #94FFAB;
   letter-spacing: -4.3px;
-  -webkit-animation: fadeIn1 2s;
-          animation: fadeIn1 2s;
 }
 .main-container .main-text .occ {
   position: absolute;
@@ -131,49 +166,19 @@ body {
   color: #54CF6F;
   letter-spacing: 0;
 }
-@-webkit-keyframes fadeIn1 {
+@keyframes fadeInMain {
   0% {
+    opacity: 0;
+  }
+  60% {
     opacity: 0;
   }
   100% {
     opacity: 1;
-  }
-}
-@keyframes fadeIn1 {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-webkit-keyframes fadeIn2 {
-  0% {
-    opacity: 0;
-    margin-left: 10px;
-  }
-  20% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-    margin-left: 100px;
-  }
-}
-@keyframes fadeIn2 {
-  0% {
-    opacity: 0;
-    margin-left: 10px;
-  }
-  20% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-    margin-left: 100px;
   }
 }
 .main-container .rotate {
+  animation: fadeInMain 2.7s;
   position: absolute;
   left: 20px;
   top: 150px;
@@ -185,6 +190,7 @@ body {
   font-size: 20px;
 }
 .main-container .contact-button {
+  animation: fadeInMain 2.7s;
   width: 160px;
   padding: 12px;
   background: transparent;
@@ -210,6 +216,18 @@ body {
   position: fixed;
   left: 100px;
   bottom: 5vh;
+  animation: fadeInArrow 3.5s;
+}
+@keyframes fadeInArrow {
+  0% {
+    opacity: 0;
+  }
+  95% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .down-arrow:hover {
@@ -219,6 +237,7 @@ body {
 }
 
 .social {
+  animation: fadeInArrow 3.7s;
   z-index: 3;
   position: fixed;
   right: 80px;
@@ -410,8 +429,7 @@ body {
   font-family: "Mulish", sans-serif;
 }
 #contact h2 a {
-  -webkit-text-decoration-color: #44C360;
-          text-decoration-color: #44C360;
+  text-decoration-color: #44C360;
 }
 #contact .contact-social-links {
   display: flex;
