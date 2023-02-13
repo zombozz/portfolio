@@ -4,7 +4,7 @@ const Work = () => {
   return (
     <div id="work" className='container'>
         <h1><span>03.</span>Work</h1>
-        <h3>Some of my projects that I enjoyed working on:</h3>
+        <h3>Some recent projects I've enjoyed working on:</h3>
         <div className='work-container'>
             <div id="work-cont" className='work-1'>
                 <a target='#' href="https://mini-bird.netlify.app/">mini-bird.netlify.app</a>
@@ -22,10 +22,15 @@ const Work = () => {
                 <p>Quiz application utilising REST APIS, Redux Toolkit, React Router, features custom questions and answers, topic to choose from, and results at the end.</p>
             </div>
             <div id="work-cont" className='work-3'>
+                <a target='#' href="https://emergencybutton.io/">emergencybutton.io/</a>
+                <a target='#' href="https://github.com/zombozz/TEB"><img src="images/github.png"></img></a>
+                <p>Help site for assisting individuals with addictions through motivation and distractions. Work in progress.</p>
+            </div>
+            {/* <div id="work-cont" className='work-3'>
                 <a target='#' href="https://art-gallery1.netlify.app">art-gallery1.netlify.app</a>
                 <a target='#' href="https://github.com/zombozz/artwork-show"><img src="images/github.png"></img></a>
                 <p>A site I built for my cousin to display her paintings: A personal website built using ReactJS with a simple grid gallery of images.</p>
-            </div>
+            </div> */}
         </div>
     </div>
   )
