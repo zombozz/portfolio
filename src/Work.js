@@ -21,16 +21,16 @@ const Work = () => {
                 <a target='#' href="https://github.com/zombozz/quiz-finished"><img src="images/github.png"></img></a>
                 <p>Quiz application utilising REST APIS, Redux Toolkit, React Router, features custom questions and answers, topic to choose from, and results at the end.</p>
             </div>
-            <div id="work-cont" className='work-3'>
+            {/* <div id="work-cont" className='work-3'>
                 <a target='#' href="https://emergencybutton.io/">emergencybutton.io/</a>
                 <a target='#' href="https://github.com/zombozz/TEB"><img src="images/github.png"></img></a>
                 <p>Help site for assisting individuals with addictions through motivation and distractions. Work in progress.</p>
-            </div>
-            {/* <div id="work-cont" className='work-3'>
+            </div> */}
+            <div id="work-cont" className='work-3'>
                 <a target='#' href="https://art-gallery1.netlify.app">art-gallery1.netlify.app</a>
                 <a target='#' href="https://github.com/zombozz/artwork-show"><img src="images/github.png"></img></a>
-                <p>A site I built for my cousin to display her paintings: A personal website built using ReactJS with a simple grid gallery of images.</p>
-            </div> */}
+                <p>A site I built for my cousin to display her paintings: A personal website built using ReactJS with a simple grid gallery of images. *TEMPORARILY DOWN*</p>
+            </div>
         </div>
     </div>
   )
