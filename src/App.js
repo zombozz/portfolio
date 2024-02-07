@@ -25,7 +25,7 @@ function App() {
       <div className='header-background'></div>
       <Main />
       <Socials />
-      <ArrowDown />
+      <ArrowDown /> 
       <div className="space" id='about1'></div>
       <About />
       <div className="space" id='skills1'></div>

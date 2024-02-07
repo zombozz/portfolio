@@ -7,9 +7,9 @@ const Work = () => {
         <h3>Some recent projects I've enjoyed working on:</h3>
         <div className='work-container'>
             <div id="work-cont" className='work-1'>
-                <a target='#' href="https://mini-bird.netlify.app/">mini-bird.netlify.app</a>
+                <a target='#' href="https://gustoitalia.netlify.app/">gustoitalia.netlify.app</a>
                 <a target='#' href="https://github.com/zombozz/flbird-mini"><img src="images/github.png"></img></a>
-                <p>Working knock off version of flappy bird, created in vanilla JavaScript. Built without following any tutorials, which I am very proud of.</p>
+                <p>Fully responsive, beautiful website for Gusto Italia, an Italian Restaurant client. Made using React.js, SCSS.</p>
             </div>
             {/* <div id="work-cont" className='work-2'>
                 <a target='#' href="https://omori-clone.netlify.app">omori-clone.netlify.app</a>
@@ -27,9 +27,9 @@ const Work = () => {
                 <p>Help site for assisting individuals with addictions through motivation and distractions. Work in progress.</p>
             </div> */}
             <div id="work-cont" className='work-3'>
-                <a target='#' href="https://art-gallery1.netlify.app">art-gallery1.netlify.app</a>
-                <a target='#' href="https://github.com/zombozz/artwork-show"><img src="images/github.png"></img></a>
-                <p>A site I built for my cousin to display her paintings: A personal website built using ReactJS with a simple grid gallery of images. *TEMPORARILY DOWN*</p>
+                <a target='#' href="https://seoswift.netlify.app">seoswift.netlify.app</a>
+                <a target='#' href="https://github.com/zombozz"><img src="images/github.png"></img></a>
+                <p>A site built for a client offering SEO services. Complete with payment plans, and responsive design, this is a complete React.js site </p>
             </div>
         </div>
     </div>
